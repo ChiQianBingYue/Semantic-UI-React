@@ -107,7 +107,7 @@ const examplesSectionsSrc = toUniversalGlob(paths.docsSrc(), 'examples/*/*/*/ind
 const examplesSrc = toUniversalGlob(paths.docsSrc(), 'examples/*/*/*/!(*index).js')
 
 task('build:docs:cname', (cb) => {
-  sh(`echo react.semantic-ui.com > ${paths.docsDist('CNAME')}`, cb)
+  sh(`echo react.semantic-ui.yishan.co > ${paths.docsDist('CNAME')}`, cb)
 })
 
 task('build:docs:docgen', () =>
